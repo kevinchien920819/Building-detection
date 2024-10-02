@@ -1,0 +1,11 @@
+activate new_model_tree
+
+python MultiModels.py G:\Buildings_Others 4 256 256 32 255 VGG19
+python MultiModels.py G:\Buildings_Others 4 256 256 32 255 Resnet50
+python MultiModels.py G:\Buildings_Others 4 256 256 32 255 VGG16
+python MultiModels.py G:\Buildings_Others 4 256 256 32 255 AlexNet
+python MultiModels.py G:\Buildings_Others 4 256 256 32 255 Xception
+python MultiModels.py G:\Buildings_Others 4 256 256 32 255 MobileNet
+python MultiModels.py G:\Buildings_Others 4 256 256 32 255 EfficientNet
+
+
